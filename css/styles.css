@@ -40,20 +40,33 @@ body {
 }
 
 .wrapper {
-	padding: 0 20px;
+	padding: 0px 20px;
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-.wrapper__full {
-	max-width: 1920px;
-	margin: 0 auto;
-}
-
-.wrapper__540px {
+.wrapper-text{
 	margin: 0 auto;
 	max-width: 540px;
-	padding: 112px 0 110px;
+	padding: 100px 0;
+}
+
+.text-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.text-subtitle {
+	text-align: center;
+}
+
+.wrapper__full {
+	margin: 0 auto;
+	max-width: 1920px;
 }
 
 /* Header styles start */
@@ -148,10 +161,6 @@ body {
 	max-width: 100%;
 }
 
-.intro__desc {
-	/* padding-left: 131px; */
-}
-
 .intro__desc-title {
 	font-weight: 500;
 	font-size: 48px;
@@ -179,23 +188,21 @@ body {
 
 /* About-me section start*/
 
-.about-me__wrapper {
-	margin: 0 auto;
-	max-width: 540px;
-	padding: 112px 0 110px;
-}
+/* .about-me__wrapper {
+	margin: 112px auto 110px;
+} */
 
 .about-me__title {
-	font-weight: 500;
+	/* font-weight: 500;
 	font-size: 32px;
 	line-height: 37px;
 	text-align: center;
 	color: #000000;
-	margin-bottom: 50px;
+	margin-bottom: 50px; */
 }
 
 .about-me__subtitle {
-	text-align: center;
+	/* text-align: center; */
 }
 
 /* About-me section end*/
@@ -210,15 +217,14 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 100px 0 70px;
+	padding: 100px 0;
 	color: white;
-	gap: 30px;
+	gap: 50px;
 }
 
 .project__card {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 30px;
 }
 
 .project__card-img {
@@ -303,27 +309,13 @@ body {
 
 .video {
 	background: #EEEFF1;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 }
 
 .video__text-wrapper {
-	margin: 0 auto;
-	max-width: 540px;
 	margin-bottom: 57px;
 }
 
-.video__text-title {
-	font-weight: 500;
-	font-size: 32px;
-	line-height: 37px;
-	text-align: center;
-	color: #000000;
-	margin-bottom: 50px;
-}
-
-.video__text-subtitle {
-	text-align: center;
-}
 
 .videos__wrapper {
 	max-width: 1110px;
@@ -395,9 +387,13 @@ body {
 
 /* Request form section start */
 
-.request-form {
+.request {
 	background-color: #EEEFF1;
 	text-align: center;
+}
+
+.request-text-subtitle{
+	padding-bottom: 65px;
 }
 
 .form__wrapper {
