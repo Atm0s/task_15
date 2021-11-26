@@ -1,5 +1,5 @@
-# Task_7
-Adaptive VC
+# Module_15
+Ending task for module 15. Standards.
 
 DRY:
 В секции .project__card убрал паддинг, который присутствовал в родительском элементе
