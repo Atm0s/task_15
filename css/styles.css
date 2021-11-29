@@ -188,23 +188,6 @@ body {
 
 /* About-me section start*/
 
-/* .about-me__wrapper {
-	margin: 112px auto 110px;
-} */
-
-.about-me__title {
-	/* font-weight: 500;
-	font-size: 32px;
-	line-height: 37px;
-	text-align: center;
-	color: #000000;
-	margin-bottom: 50px; */
-}
-
-.about-me__subtitle {
-	/* text-align: center; */
-}
-
 /* About-me section end*/
 
 /* Projects section start */
@@ -478,13 +461,6 @@ body {
 	.wrapper {
 		padding: 0 20px;
 	}
-	.intro__desc-title {
-		/* font-weight: 500; */
-		/* font-size: 48px; */
-		/* line-height: 50px; */
-		/* color: #000000; */
-		/* margin-bottom: 60px; */
-	}
 }
 
 @media screen and (max-width: 767px) {
@@ -493,9 +469,6 @@ body {
 	}
 	.header__wrapper {
 		padding-top: 20px;
-	}
-	.header__logo {
-		/* padding-bottom: 20px; */
 	}
 	.header__burger {
 		display: block;
@@ -569,9 +542,6 @@ body {
 	.proficiency__list {
 		padding: 0 20px;
 	}
-	.proficiency__photo {
-		/* order: 1; */
-  }
 	.video__text-wrapper {
 		padding: 60px 20px 20px;
 

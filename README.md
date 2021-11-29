@@ -1,6 +1,8 @@
 # Module_15
 Ending task for module 15. Standards.
 
+# DRY, KISS, YAGNI
+
 DRY:
 В секции .project__card убрал паддинг, который присутствовал в родительском элементе
 -	padding-bottom: 30px;
@@ -25,3 +27,6 @@ YAGNI:
 .intro__desc {
 	/* padding-left: 131px; */
 }
+
+## 2 W3C
+Код приведен в соответсвие для проверки валидатором validator.w3.org
