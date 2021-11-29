@@ -1,7 +1,7 @@
 # Module_15
 Ending task for module 15. Standards.
 
-# DRY, KISS, YAGNI
+## DRY, KISS, YAGNI
 
 DRY:
 В секции .project__card убрал паддинг, который присутствовал в родительском элементе
