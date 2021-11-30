@@ -4,8 +4,9 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''), url('../fonts/roboto-v29-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	url('../fonts/roboto-v29-latin_cyrillic-regular.woff') format('woff');
+	src: local(''), url('../fonts/roboto-v29-latin_cyrillic-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/roboto-v29-latin_cyrillic-regular.woff') format('woff');
 	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -15,8 +16,9 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
-	src: local(''), url('../fonts/roboto-v29-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-	url('../fonts/roboto-v29-latin_cyrillic-500.woff') format('woff');
+	src: local(''), url('../fonts/roboto-v29-latin_cyrillic-500.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/roboto-v29-latin_cyrillic-500.woff') format('woff');
 	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -24,7 +26,9 @@ html {
 	box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
@@ -45,7 +49,7 @@ body {
 	margin: 0 auto;
 }
 
-.wrapper-text{
+.wrapper-text {
 	margin: 0 auto;
 	max-width: 540px;
 	/* padding: 100px 0; */
@@ -104,7 +108,9 @@ body {
 	text-transform: uppercase;
 }
 
-.header__link:active, .header__link:hover, header_link:focus {
+.header__link:active,
+.header__link:hover,
+header_link:focus {
 	color: #34547A;
 	font-weight: 500;
 }
@@ -174,6 +180,7 @@ body {
 	margin-bottom: 50px;
 	line-height: 26.25px;
 }
+
 .button__write-me {
 	border: 0;
 	padding: 25px 40px;
@@ -186,16 +193,20 @@ body {
 /* Intro styles end */
 
 /* About-me section start*/
-.about-me{
+
+.about-me {
 	padding-top: 125px;
 	padding-bottom: 90px;
 }
+
 /* About-me section end*/
 
 /* Projects section start */
+
 .projects {
 	background: #34547A;
 }
+
 .project__cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -373,18 +384,18 @@ body {
 
 /* Request form section start */
 
-.request {
+.request-form {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background-color: #EEEFF1;
 	text-align: center;
 }
 
-.request-text-subtitle{
+.request-text-subtitle {
 	padding-bottom: 65px;
 }
 
-.form__wrapper {
+.request-form__wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -472,33 +483,37 @@ body {
 	.header {
 		padding-bottom: 60px;
 	}
+
 	.header__wrapper {
 		padding-top: 20px;
 	}
+
 	.header__burger {
 		display: block;
 	}
+
 	.header__nav {
 		position: fixed;
 		width: 70%;
 		height: 100%;
 		top: 0;
 		right: 0;
-		/* background-color: white; */
 		background-color: rgba(255, 255, 255, 0.95);
 		z-index: 10;
 		padding: 40px 40px 60px;
 		display: none;
 	}
+
 	.header__nav_active {
 		display: block;
 	}
+
 	.header__item {
 		width: 100%;
 		margin-right: 0;
-		/* margin-bottom: 30px; */
 		border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 	}
+
 	.header__link {
 		font-size: 1.5em;
 		line-height: 2em;
@@ -507,6 +522,7 @@ body {
 		text-decoration: none;
 		text-transform: uppercase;
 	}
+
 	.header__nav-close {
 		width: 40px;
 		height: 40px;
@@ -515,6 +531,7 @@ body {
 		right: 20px;
 		z-index: 11;
 	}
+
 	.header__nav-close-line {
 		display: block;
 		width: 100%;
@@ -523,58 +540,74 @@ body {
 		position: absolute;
 		top: 50%;
 	}
+
 	.header__nav-close-line:first-child {
 		transform: translateY(-50%) rotate(45deg);
 	}
+
 	.header__nav-close-line:last-child {
 		transform: translateY(-50%) rotate(-45deg);
 	}
+
 	.intro {
 		padding-bottom: 60px;
 	}
+
 	.intro__module {
 		text-align: center;
 		justify-content: center;
 		padding-left: 0;
 	}
+
 	.about-me {
 		padding: 80px;
 	}
+
 	.proficiency__wrapper {
 		justify-content: center;
 		margin: 102px auto 0;
 	}
+
 	.proficiency__list {
 		padding: 0 20px;
 	}
+
 	.video__text-wrapper {
 		padding: 60px 20px 20px;
 	}
-	.wrapper{
+
+	.wrapper {
 		padding: 0;
 	}
+
 	.videos__wrapper {
 		margin: 0 auto;
 		padding-bottom: 60px;
 	}
+
 	.pictures__card {
 		grid-column: span 2;
 	}
+
 	.work__elements {
 		margin: 20px 0;
 		justify-content: center;
 	}
+
 	.wrapper__540px {
 		padding: 60px 0;
 	}
+
 	.footer__item {
 		padding: 40px;
 		justify-content: center;
 		text-align: center;
 	}
+
 	.footer__copyright-name {
 		margin-bottom: 5px;
 	}
+
 	.footer__copyright-rights {
 		margin-bottom: 5px;
 	}
